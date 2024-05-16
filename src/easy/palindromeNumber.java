@@ -1,9 +1,11 @@
 package easy;
-
+//https://leetcode.com/problems/palindrome-number/
 public class palindromeNumber {
     public static void main(String[] args) {
         palindromeNumber obj = new palindromeNumber();
         System.out.println(obj.isPalindrome(121));
+        System.out.println(obj.isPalindrome(-121));
+        System.out.println(obj.isPalindrome(10));
     }
     public boolean isPalindrome(int x) {
         if(x<0){
